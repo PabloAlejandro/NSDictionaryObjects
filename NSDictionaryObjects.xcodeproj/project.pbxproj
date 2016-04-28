@@ -10,6 +10,8 @@
 		5F3AD4891CD25CCD006F851E /* NSDictionaryObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3AD4881CD25CCD006F851E /* NSDictionaryObjects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F3AD4901CD25CCD006F851E /* NSDictionaryObjects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3AD4851CD25CCD006F851E /* NSDictionaryObjects.framework */; };
 		5F3AD4951CD25CCD006F851E /* NSDictionaryObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AD4941CD25CCD006F851E /* NSDictionaryObjectsTests.m */; };
+		5F3AD4A11CD25CDE006F851E /* NSDictionary+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3AD49F1CD25CDE006F851E /* NSDictionary+Utils.h */; };
+		5F3AD4A21CD25CDE006F851E /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3AD4A01CD25CDE006F851E /* NSDictionary+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		5F3AD48F1CD25CCD006F851E /* NSDictionaryObjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDictionaryObjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3AD4941CD25CCD006F851E /* NSDictionaryObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryObjectsTests.m; sourceTree = "<group>"; };
 		5F3AD4961CD25CCD006F851E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3AD49F1CD25CDE006F851E /* NSDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		5F3AD4A01CD25CDE006F851E /* NSDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		5F3AD4871CD25CCD006F851E /* NSDictionaryObjects */ = {
 			isa = PBXGroup;
 			children = (
+				5F3AD49F1CD25CDE006F851E /* NSDictionary+Utils.h */,
+				5F3AD4A01CD25CDE006F851E /* NSDictionary+Utils.m */,
 				5F3AD4881CD25CCD006F851E /* NSDictionaryObjects.h */,
 				5F3AD48A1CD25CCD006F851E /* Info.plist */,
 			);
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F3AD4891CD25CCD006F851E /* NSDictionaryObjects.h in Headers */,
+				5F3AD4A11CD25CDE006F851E /* NSDictionary+Utils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3AD4A21CD25CDE006F851E /* NSDictionary+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
