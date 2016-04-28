@@ -1,0 +1,6 @@
+framework module NSDictionaryObjects {
+  umbrella header "NSDictionaryObjects.h"
+
+  export *
+  module * { export * }
+}

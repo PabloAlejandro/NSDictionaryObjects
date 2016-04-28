@@ -1,0 +1,1 @@
+ const unsigned char NSDictionaryObjectsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:NSDictionaryObjects  PROJECT:NSDictionaryObjects-1" "\n"; const double NSDictionaryObjectsVersionNumber __attribute__ ((used)) = (double)1.;

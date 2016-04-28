@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Pau/dev/NSDictionaryObjects/build/Release-iphonesimulator/NSDictionaryObjects.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "NSDictionaryObjects-Swift.h",
+          'external-contents': "/Users/Pau/dev/NSDictionaryObjects/build/Release-iphonesimulator/NSDictionaryObjects.framework/Headers/NSDictionaryObjects-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionaryObjects.h",
+          'external-contents': "/Users/Pau/dev/NSDictionaryObjects/NSDictionaryObjects/NSDictionaryObjects.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Pau/dev/NSDictionaryObjects/build/Release-iphonesimulator/NSDictionaryObjects.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Pau/dev/NSDictionaryObjects/build/NSDictionaryObjects.build/Release-iphonesimulator/NSDictionaryObjects.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
